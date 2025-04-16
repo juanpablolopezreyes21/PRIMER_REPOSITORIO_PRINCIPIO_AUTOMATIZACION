@@ -7,7 +7,7 @@ public class metodos {
 		System.setProperty("webdriver.Chrome.driver", "D:\\PROGRAMAS\\drivers\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe"); //aqui le especificamos la ruta donde se encuentra el ejecutor de chrome
 		WebDriver driver_chrome = new ChromeDriver(); // declaramos una variable para montar el chrome driver
 		
-		//Metodo basico 1, get = nos abre pagina reuqerida
+		//Metodo basico 1, get = nos abre pagina requerida
 		driver_chrome.get("https://www.google.com"); //mandamos a abrir con la variable donde se encuentra nuestro ejecutor y con get lo abre
 		
 		//Metodo basico 2, getTitle() = nos trae el titulo de la pagina actual
