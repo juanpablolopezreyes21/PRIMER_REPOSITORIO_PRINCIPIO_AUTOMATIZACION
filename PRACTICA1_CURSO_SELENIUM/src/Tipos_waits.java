@@ -34,7 +34,7 @@ public class Tipos_waits {
 		
 		//Fluent Wait
 		driver_chrome.get("https://www.google.com"); //mandamos a abrir con la variable donde se encuentra nuestro ejecutor y con get lo abre
-		WebElement image = driver_chrome.findElement(By.className("gLFyf1"));
+		WebElement image = driver_chrome.findElement(By.className("gLFyf"));
 		Wait <WebDriver> wait = new FluentWait<>(driver_chrome)
 			.withTimeout(Duration.ofSeconds(3))
 			.pollingEvery(Duration.ofMillis(300))
